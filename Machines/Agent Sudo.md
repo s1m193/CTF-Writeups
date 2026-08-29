@@ -216,6 +216,7 @@ More importantly, the message indicated that **Agent J's password was hidden ins
 
 This suggested that the next step would involve steganography and file analysis.
 
+
 ---
 
 ## 📦 Steganography — PNG Analysis with Binwalk
@@ -225,6 +226,7 @@ I started by analyzing `cutie.png` using **Binwalk**:
 ```bash id="2h4azn"
 binwalk cutie.png
 ```
+<img width="1600" height="515" alt="image" src="https://github.com/user-attachments/assets/721f845b-bd61-4488-9ac3-8ce84ceb96ea" />
 
 Binwalk detected embedded data, including a ZIP archive beginning at byte offset:
 
@@ -239,7 +241,6 @@ To_agentR.txt
 ```
 
 However, the archive was password protected.
-
 
 
 Since automatic extraction was unsuccessful, I manually carved the archive from the PNG using `dd`:
@@ -278,9 +279,8 @@ The password was recovered:
 alien
 ```
 
-![John the Ripper](IMAGE_URL)
 
-*Figure 9 — ZIP password successfully cracked as `alien`.*
+<img width="1575" height="745" alt="image" src="https://github.com/user-attachments/assets/d16fb766-22c4-4e90-ad86-746f521d392a" />
 
 The archive contained:
 
@@ -310,9 +310,8 @@ The output was:
 Area51
 ```
 
-![Base64 decoding](IMAGE_URL)
 
-*Figure 10 — Base64 string decoded to `Area51`.*
+<img width="909" height="325" alt="image" src="https://github.com/user-attachments/assets/e6b1a17b-310e-4bb6-bb6c-53835919ff74" />
 
 `Area51` appeared to be a passphrase rather than simply a location, suggesting that it could be used to extract hidden information from another file.
 
