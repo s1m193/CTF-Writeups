@@ -201,7 +201,7 @@ flag{sam_database_elevated_access}
 ```
 
 
-<img width="311" height="289" alt="image" src="https://github.com/user-attachments/assets/356850b2-fa7b-49e4-901d-46392ee58fce" />
+<img width="568" height="389" alt="image" src="https://github.com/user-attachments/assets/36574833-4c72-462c-8c17-90df26736a82" />
 
 ---
 
@@ -226,7 +226,8 @@ flag{admin_documents_can_be_valuable}
 ```
 
 
-<img width="539" height="367" alt="image" src="https://github.com/user-attachments/assets/77aeafe0-cc45-45d6-8f81-1f7469334ae4" />
+<img width="568" height="389" alt="image" src="https://github.com/user-attachments/assets/316db106-c29e-461a-861f-290b00841327" />
+
 
 ---
 
