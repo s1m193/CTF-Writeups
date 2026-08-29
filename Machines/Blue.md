@@ -201,7 +201,7 @@ flag{sam_database_elevated_access}
 ```
 
 
-<img width="568" height="389" alt="image" src="https://github.com/user-attachments/assets/36574833-4c72-462c-8c17-90df26736a82" />
+<img width="372" height="346" alt="image" src="https://github.com/user-attachments/assets/3cb82e44-4d64-4669-b034-2270e450c0b5" />
 
 ---
 
