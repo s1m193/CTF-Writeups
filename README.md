@@ -1,4 +1,4 @@
-# `r00tj0k3r` — CTF Writeups
+# `R00tJ0k3r` — CTF Writeups
 
 > **Learn • Exploit • Understand**
 
